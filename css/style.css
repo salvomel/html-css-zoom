@@ -8,4 +8,45 @@
 /* COMMON */
 body {
     font-family: 'Lato', sans-serif;
+    color: white;
 }
+
+.btn {
+    background-color: #4a4a4a;
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 3px 4px;
+}
+
+/* HEADER */
+header {
+    height: 27px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-buttons {
+    display: flex;
+}
+
+.speaker-view,
+.full-size {
+    margin-right: 3px;
+}
+
+/* MAIN */
+main {
+    height: calc(100vh - 87px);
+    width: 100%;
+}    
+
+/* FOOTER */
+footer {
+    height: 60px;
+    width: 100%;
+    border: 1px solid red;
+}
+
