@@ -12,7 +12,7 @@ body {
     background-color: black;
 }
 
-.btn {
+.btn-top {
     background-color: #4a4a4a;
     font-size: 10px;
     border-radius: 5px;
@@ -71,5 +71,40 @@ footer {
     height: 60px;
     width: 100%;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
 }
 
+.menu-bottom-left {
+    display: flex;
+}
+
+.menu-bottom-center {
+    display: flex;
+}
+
+.btn-bottom {
+    padding: 7px;
+}
+
+.btn-bottom p {
+    padding-top: 5px;
+}
+
+.angle-up {
+    display: flex;
+    align-items: center;
+}
+
+.green {
+    color: limegreen;
+}
+
+ .end-meeting {
+    background-color: #4a4a4a;
+    color: red;
+    padding: 23px;
+ }
